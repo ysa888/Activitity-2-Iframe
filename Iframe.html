@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iframe.css">
+    <title>I Frame</title>
+    <style>
+        body{
+            background-color: rgb(253, 163, 160);
+            width: 100%; height: 100%;
+            text-align: center;
+        }
+        a{
+            margin: 20px;
+            text-decoration: none;
+        }
+        button{
+            width: 90px; height: 40px;
+            border-radius: 20px;
+            background-color: rgb(245, 211, 148);
+            border: 2px solid rgb(243, 131, 56);
+        }
+        button:hover{
+            background-color: rgb(241, 206, 140);
+            border: 2px solid rgb(226, 120, 49);
+            transition-duration: 1ms;
+        }
+        iframe{
+            margin-top: 10px;
+            width: 90%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My i-Frame</h1>
+    <a target="i-frame" href="https://www.youtube.com/embed/ssy5QrVzcD8?si=smvavh2xKZSsySwv">
+        <button class="btns">Frame 1</button>
+    </a>
+    <a target="i-frame" href="https://en.wikipedia.org">
+        <button class="btns">Frame 2</button>
+    </a>
+    <a target="i-frame" href="https://www.youtube.com/embed/HGTJBPNC-Gw?si=WyVIfN1rZ_yNg74N">
+        <button class="btns">Frame 3</button>
+    </a><br>
+    <iframe name="i-frame" src="" frameborder="1"></iframe>
+</body>
+</html>
